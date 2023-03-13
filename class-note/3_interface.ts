@@ -3,11 +3,11 @@ interface User {
   name: string;
 }
 
-// 변수에 인터페이스 활용
-var seho: User = {
-  age: 33,
-  name: '세호'
-}
+// // 변수에 인터페이스 활용
+// var seho: User = {
+//   age: 33,
+//   name: '세호'
+// }
 
 // 함수에 인터페이스 활용
 function getUser(user: User) {
