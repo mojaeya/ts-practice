@@ -1,4 +1,4 @@
-let todoItems;
+let todoItems: any;
 
 // api
 function fetchTodoItems() {
@@ -16,7 +16,8 @@ function fetchTodos() {
   return todos;
 }
 
-function addTodo(todo) {
+// void : 반환값이 없다라고 명시적 표현
+function addTodo(todo): void {
   todoItems.push(todo);
 }
 
