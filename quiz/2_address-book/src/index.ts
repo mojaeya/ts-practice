@@ -1,20 +1,21 @@
-interface PhoneNumberDictionary {
-  [phone: string]: {
-    num: number;
-  };
-}
+import { Contact, PhoneType } from './types';
+// interface PhoneNumberDictionary {
+//   [phone: string]: {
+//     num: number;
+//   };
+// }
 
-interface Contact {
-  name: string;
-  address: string;
-  phones: PhoneNumberDictionary;
-}
+// interface Contact {
+//   name: string;
+//   address: string;
+//   phones: PhoneNumberDictionary;
+// }
 
-enum PhoneType {
-  Home = 'home',
-  Office = 'office',
-  Studio = 'studio',
-}
+// enum PhoneType {
+//   Home = 'home',
+//   Office = 'office',
+//   Studio = 'studio',
+// }
 
 // type PhoneType = 'home' | 'office' | 'studio';
 
