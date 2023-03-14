@@ -5,7 +5,7 @@
 let str: string = "hello";
 
 // ts 숫자
-let num: number = 10;
+// let num: number = 10;
 
 // ts 배열
 let arr: Array<number> = [1, 2, 3];
